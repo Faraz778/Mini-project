@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: #f0f1f0ea;
+        }
+
+        .parent h1 {
+            color: #0866ff;
+            position: relative;
+            top: 200px;
+            left: 160px;
+            font-size: 60px;
+            letter-spacing: 1px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        }
+
+        .parent p {
+            font-size: 30px;
+            font-family: sans-serif;
+            position: relative;
+            top: 210px;
+            left: 160px;
+        }
+
+        .login {
+            height: 360px;
+            width: 400px;
+            background-color: white;
+            position: relative;
+            left: 750px;
+            top: -10px;
+            border-radius: 10px;
+
+
+        }
+
+        .login:hover {
+            box-shadow: 1px 1px 1px lightslategray;
+        }
+
+        .login #Email {
+            width: 90%;
+            height: 50px;
+            margin: 20px 0 0 20px;
+            padding: 20px;
+            border-radius: 7px;
+            border: 1px solid #0866ff;
+            font-size: 15px;
+        }
+
+        #Email:hover {
+            border: 2px solid #0866ff;
+        }
+
+        .login #pass {
+            width: 90%;
+            height: 50px;
+            margin: 12px 0 0 20px;
+            padding: 20px;
+            border-radius: 7px;
+            border: 1px solid #0866ff;
+            font-size: 15px;
+
+        }
+
+        #pass:hover {
+            border: 2px solid #0866ff;
+        }
+
+        .login .btn1 {
+            width: 90%;
+            height: 50px;
+            background-color: #0866ff;
+            color: ghostwhite;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            margin: 20px 0 0 20px;
+            border-radius: 5px;
+            border: 1px solid #0866ff;
+        }
+
+        .login .btn1:hover {
+            background-color: #1653b5e9;
+        }
+
+        .login p {
+            color: #0866ff;
+            font-family: sans-serif;
+            margin: 15px 0 0 140px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .login p:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            width: 90%;
+            margin: 25px 0 0 20px;
+
+        }
+
+        .login .btn2 {
+            background-color: #14b321;
+            height: 50px;
+            width: 50%;
+            color: ghostwhite;
+            font-size: 17px;
+            font-weight: bold;
+            margin: 20px 0 0 100px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .login .btn2:hover {
+            background-color: #12dc23;
+        }
+
+        #para {
+            margin: 20px 0 0 800px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <h1>facebook</h1>
+        <p>Facebook helps you connect and share<br> with the people in your life.</p>
+    </div>
+
+    <div class="login">
+        <form action="#">
+            <input id="Email" type="email" placeholder="Email Address or Phone number" required> <br>
+            <input id="pass" type="password" placeholder="Password" required><br>
+            <button class="btn1">Log in</button>
+            <p>Forgotten password?</p>
+            <hr class="line">
+            <button class="btn2">Create new account</button>
+
+        </form>
+    </div>
+    <p id="para"><strong>Create a Page</strong> for a celebrity, brand or business.</p>
+<br><br>
+<a href="form.html" target="_blank">form</a>
+</body>
+
+</html>
